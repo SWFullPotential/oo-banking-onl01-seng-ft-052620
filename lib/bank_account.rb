@@ -12,7 +12,7 @@ def initialize(name)
 end
 
 def deposit(deposit_amount)
-  @balance += deposit_amount
+  self.balance += deposit_amount
 end
 
 def display_balance
